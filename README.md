@@ -1,7 +1,6 @@
 
-# Project Title
+# AI Model Creations
 
-A brief description of what this project does and who it's for
 This project is about creating sample models foe AI 
 1. Model is RNN which is learning on toy data set and predicting it value 
 
