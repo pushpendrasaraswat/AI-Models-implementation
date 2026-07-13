@@ -1,7 +1,7 @@
 
 # AI Model Creations
 
-This project is about creating sample models foe AI 
+This project is about creating sample models for AI 
 1. Model is RNN which is learning on toy data set and predicting it value 
 
 
