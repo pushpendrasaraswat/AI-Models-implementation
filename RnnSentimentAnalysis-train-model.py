@@ -152,7 +152,7 @@ model.fit(
 )
 
 # Save trained model
-model.save("sentiment_model.keras")
+model.save("rnn-sentiment_model.keras")
 
 # Stores:
 # # Neural network architecture
@@ -160,7 +160,7 @@ model.save("sentiment_model.keras")
 # Configuration
 #
 # Next time: No training required.
-with open("tokenizer.pkl", "wb") as file:
+with open("rnn-tokenizer.pkl", "wb") as file:
     pickle.dump(tokenizer, file)
 
 

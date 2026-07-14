@@ -4,11 +4,11 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 # Load model
-model = load_model("sentiment_model.keras")
+model = load_model("rnn-sentiment_model.keras")
 
 
 # Load tokenizer
-with open("tokenizer.pkl", "rb") as file:
+with open("rnn-tokenizer.pkl", "rb") as file:
     tokenizer = pickle.load(file)
 
 
