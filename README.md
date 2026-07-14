@@ -10,9 +10,14 @@ Model is trained using
 1. RnnSentimentAnalysis-train-model.py
 2. train-imdb-review-model.py
 
-files and stores in files like imdb-rnn-sentiment_model.keras,rnn-sentiment_model.keras
+files and model is stored in imdb-rnn-sentiment_model.keras,rnn-sentiment_model.keras files.
 
 which can be used in predict python files.
+e.g.
+
+model = load_model(
+    "imdb-rnn-sentiment_model.keras"
+)
 
 to run the code run following command and run individual files
 python3 -m pip install -r requirements.txt
